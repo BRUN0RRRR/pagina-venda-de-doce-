@@ -1,0 +1,134 @@
+*{
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-template-areas: 'myArea';
+  color: white;
+}
+
+h3{
+  color: wheat;
+
+}
+
+header{
+  position: fixed;
+  background-color: #232526;
+  width: 100%;
+  height: 140px;
+  grid-area: barratitulo;
+  display:inline;
+  align-items: center;
+}
+
+.perfilMarcola{
+  position: relative;
+   width: 50px;
+   height: 50px;
+   margin-left :180vh;
+   margin-top: 0px;
+  
+   
+  }
+
+img{ 
+    margin: 5px;
+    max-width: 200px;
+    cursor: pointer;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:top;
+    border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+input{
+margin-left: 20%;
+
+}
+.perfilMarcola{
+position: relative;
+ width: 50px;
+ height: 50px;
+ margin-left :180vh;
+ margin-top: 1px;
+
+ 
+}
+  
+
+.logo{
+    margin: 5px;
+    margin-right: 0px;
+    max-height: 150px;
+    cursor: pointer;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:top;
+
+}
+
+
+.mySlides{
+  max-width: 60vw; 
+  height: 60vh;
+  text-align: center;
+  
+}
+
+.grid-site {
+  display: grid;
+  grid-template-areas: 
+    'barratitulo barratitulo barratitulo barratitulo barratitulo'
+    'myArea  myArea myArea myArea myArea';
+  background-position: 100px;
+  gap: 10px;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  top: 10px;
+  
+}
+
+
+.grid-site > div {
+background-color:#232526;
+padding: 50px 0;
+font-size: 30px;
+text-align: center;
+border-radius: 10px;
+}
+
+.parteBaixo{
+width: 100%;
+height: 300px;
+background-color: #232526 ;
+}
+
+
+ @media(max-width:1000px){
+ .cabesario img{
+ margin-left: 100%;
+
+
+}
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
